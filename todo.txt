@@ -1,0 +1,8 @@
+    1. Front end from valiation (Done)
+    *) Make the ApI call to send the form data to teh backend (done)
+    2. Register user on the backend (Backend) (done)
+    3. link product with  whatsapp (product page)
+    *) Do it in such a way that when a particular product is clicked on, 
+    it will take the product name and send it to whatsapp
+    4. Footer 
+    5. Simple animation
