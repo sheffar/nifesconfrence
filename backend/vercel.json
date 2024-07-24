@@ -1,10 +1,10 @@
 {
     "version": 2,
-    "name": "Nfes pro",
+    "name": "The confrence",
     "builds": [
        { "src": "backend/sever.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/backend/sever.js" }
+       { "src": "/(.*)", "dest": "/sever.js" }
     ]
  }
