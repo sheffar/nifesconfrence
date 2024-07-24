@@ -95,7 +95,7 @@ export const RegisterComp = () => {
     setLoading(true)
 
     try {
-      let requestData = await fetch("http://localhost:3000/submit", {
+      let requestData = await fetch("https://nifesscbackend.vercel.app/submit", {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
