@@ -1,5 +1,5 @@
 import { FaBars, FaTimes } from "react-icons/fa"
-import Logo from "../assets/image/Logo.png"
+import Logo from "/image/Logo.png"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 

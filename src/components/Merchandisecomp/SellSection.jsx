@@ -27,21 +27,21 @@ export const SellSection = () => {
   const products = [
     [
       {
-        image: "src/assets/image/fragrance of christ black-1.png",
+        image: "/image/fragrance of christ black-1.png",
         price: "5000",
         name: "Fragrance Of Christ",
         size: ["M", "L", "XL"]
 
       },
       {
-        image: "src/assets/image/men of exploit black.png",
+        image: "/image/men of exploit black.png",
         price: "3000",
         name: "The Men Of Exploit",
         size: ["M", "L", "XL"]
 
       },
       {
-        image: "src/assets/image/OS SHI.png",
+        image: "/image/OS SHI.png",
         price: "3500",
         name: "SIngles Confrence",
         size: ["M", "L", "XL"]
@@ -50,14 +50,14 @@ export const SellSection = () => {
     ],
 
     [{
-      image: "src/assets/image/cap1.jpg",
+      image: "/image/cap1.jpg",
       name: "Fragrance Of Christ",
       price: "3000",
 
     },
 
     {
-      image: "src/assets/image/singles conferene cap.png",
+      image: "/image/singles conferene cap.png",
       name: "The Men Of EXploit",
       price: "2000",
 
@@ -65,20 +65,20 @@ export const SellSection = () => {
     ],
 
     [{
-      image: "src/assets/image/notebook1.jpg",
+      image: "/public/image/notebook1.jpg",
       name: "Out for Christ",
       price: "2000",
 
     },
 
     {
-      image: "src/assets/image/notebook2.jpg",
+      image: "/public/image/notebook2.jpg",
       name: "Making Impact",
       price: "2500"
     }
     ],
     [{
-      image: "src/assets/image/diary.jpg",
+      image: "/image/diary.jpg",
       name: "Singles Confrence Diary",
       price: "4000"
     },

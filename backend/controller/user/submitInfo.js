@@ -20,7 +20,7 @@ export const submitInfo = async (req, res) => {
 
         })
  
-        if (user) return res.status(400).json({ message: `${fullname} You've registerd already registered` })
+        if (user) return res.status(400).json({ message: `${fullname} You've  already registered` })
 
     } catch (e) {
         console.log(e.message)
