@@ -2,7 +2,7 @@
     "version": 2,
     "name": "The confrence",
     "builds": [
-       { "src": "backend/sever.js", "use": "@vercel/node" }
+       { "src": "./sever.js", "use": "@vercel/node" }
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/sever.js" }
