@@ -27,14 +27,14 @@ export const SellSection = () => {
   const products = [
     [
       {
-        image: "/image/fragrance of christ black-1.jpg",
+        image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/fragrance%20of%20christ%20black-1.jpg",
         price: "8000",
         name: "Fragrance Of Christ",
         size: ["M", "L", "XL"]
 
       },
       {
-        image: "/image/men of exploit black.jpg",
+        image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/men%20of%20exploit%20black.jpg",
         price: "8000",
         name: "The Men Of Exploit",
         size: ["M", "L", "XL"]
@@ -43,14 +43,14 @@ export const SellSection = () => {
     ],
 
     [{
-      image: "/image/singles conferene cap.jpg",
+      image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/singles%20conferene%20cap.jpg",
       name: "Fragrance Of Christ",
       price: "3000",
 
     },
 
     {
-      image: "/image/singles conferene cap.jpg",
+      image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/singles%20conferene%20cap.jpg",
       name: "The Men Of EXploit",
       price: "2000",
 
@@ -58,20 +58,20 @@ export const SellSection = () => {
     ],
 
     [{
-      image: "/public/image/notebook1.jpg",
+      image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/notebook1.jpg",
       name: "Out for Christ",
       price: "2000",
 
     },
 
     {
-      image: "/public/image/notebook2.jpg",
+      image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/notebook2.jpg",
       name: "Making Impact",
       price: "2500"
     }
     ],
     [{
-      image: "/image/diary.jpg",
+      image: "https://raw.githubusercontent.com/sheffar/nifesattandance/main/uploads/diary.jpg",
       name: "Singles Confrence Diary",
       price: "4000"
     },
@@ -110,7 +110,7 @@ export const SellSection = () => {
               {products[active]?.map((ell, indexs) => (
                 <div key={indexs} className="flex bg-slate-400/20 rounded-xl my-2 justify-between  py-2">
                   <div className=" relative w-fit h-fit">
-                    <img src={ell.image} className="w-28 h-28 md:w-28 md:h-28   rounded-full object-cover  bg-black" />
+                    <img src={ell.image} className="w-28 h-28 md:w-28 md:h-28  rounded-full md:rounded-full object-cover  bg-black" />
                     <p className="bg-white w-fit p-1 px-2.5  absolute top-0  left-16  md:right-0 rounded-2xl text-orange-500 font-bold flex "> <FaMoneyBillAlt className="text-black pr-1 mt-1" />  {ell.price}</p>
                   </div>
 

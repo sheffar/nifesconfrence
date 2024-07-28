@@ -165,7 +165,7 @@ export const RegisterComp = () => {
         setSeverError("")
         setSuccess(true)
 
-        setCheckLodge("req")
+        setCheckLodge("")
         setName("")
         setNumber("")
         setMaritalstatus("")
