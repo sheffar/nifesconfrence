@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
-import { FaArrowDown, FaMoneyBillAlt } from "react-icons/fa"
+import { FaArrowDown } from "react-icons/fa"
+import { FaNairaSign } from "react-icons/fa6";
 import { WhatsappIcon } from 'react-share';
 
 
@@ -111,7 +112,7 @@ export const SellSection = () => {
                 <div key={indexs} className="flex bg-slate-400/20 rounded-xl my-2 justify-between  py-2">
                   <div className=" relative w-fit h-fit">
                     <img src={ell.image} className="w-28 h-28 md:w-28 md:h-28  rounded-full md:rounded-full object-cover  bg-black" />
-                    <p className="bg-white w-fit p-1 px-2.5  absolute top-0  left-16  md:right-0 rounded-2xl text-orange-500 font-bold flex "> <FaMoneyBillAlt className="text-black pr-1 mt-1" />  {ell.price}</p>
+                    <p className="bg-white w-fit p-1 px-2.5  absolute top-0  left-16  md:right-0 rounded-2xl text-orange-500 font-bold flex "> <FaNairaSign className="text-black pr-1 mt-1" />  {ell.price}</p>
                   </div>
 
                   <div className=" flex flex-col gap-2 items-end md:items-center pr-3 md:pr-5 ">
