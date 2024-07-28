@@ -209,7 +209,7 @@ export const RegisterComp = () => {
 
   return (
     <>
-      {success ? <div className='w-full md:w-1/2 bg-slate-400/20 px-1 mx-auto mb-40'>
+      {!success ? <div className='w-full md:w-1/2 bg-slate-400/20 px-1 mx-auto mb-40'>
         {
           serverError !== "" &&
           <p className="bg-red-500  text-center items-center text-sm font-semibold p-1 rounded-md mt-1" >{serverError}</p>
