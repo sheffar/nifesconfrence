@@ -27,37 +27,30 @@ export const SellSection = () => {
   const products = [
     [
       {
-        image: "/image/fragrance of christ black-1.png",
-        price: "5000",
+        image: "/image/fragrance of christ black-1.jpg",
+        price: "8000",
         name: "Fragrance Of Christ",
         size: ["M", "L", "XL"]
 
       },
       {
-        image: "/image/men of exploit black.png",
-        price: "3000",
+        image: "/image/men of exploit black.jpg",
+        price: "8000",
         name: "The Men Of Exploit",
-        size: ["M", "L", "XL"]
-
-      },
-      {
-        image: "/image/OS SHI.png",
-        price: "3500",
-        name: "SIngles Confrence",
         size: ["M", "L", "XL"]
 
       }
     ],
 
     [{
-      image: "/image/cap1.jpg",
+      image: "/image/singles conferene cap.jpg",
       name: "Fragrance Of Christ",
       price: "3000",
 
     },
 
     {
-      image: "/image/singles conferene cap.png",
+      image: "/image/singles conferene cap.jpg",
       name: "The Men Of EXploit",
       price: "2000",
 

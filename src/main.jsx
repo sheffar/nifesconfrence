@@ -7,6 +7,7 @@ import {Nav} from "./components/Nav"
 import { Merchandisepage } from './pages/Merchandisepage'
 import { Register } from './pages/Register'
 import { Footer } from './components/Footer'
+import { Notfound } from './components/Notfound'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Home/>} />
         <Route path='/Merchandise' element={<Merchandisepage/>} />
         <Route path='/Register' element={<Register/>} />
+        <Route path='*' element={<Notfound/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
